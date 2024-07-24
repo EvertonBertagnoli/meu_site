@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: minhaFonte;
+    src: url(Norse-KaWl.otf);
+}
+
+section p,
+section h1,
+section h2,
+section h3,
+form,
+header,
+body,
+input,
+textarea {
+    font-family: minhaFonte;
+    font-size: 20px;
+}
+
+body {
+    background-color:beige;
+}
+
+.container img {
+    height: 300px;
+}
+
+header {
+    padding: 15px 0;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1280px ;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+
+#contact .container {
+    display: flex;
+
+}
+
+.contato {
+    display: block;
+}
+
+.link-yt img {
+    height: 35px;
+}
+
+.link-yt li a {
+    text-decoration: none;
+}
+
+.link-yt li {
+    display: inline;
+    margin: 5px;
+}
+
+section h1 {
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+section h2 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+section h3 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: blueviolet;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+    border-top: 1px solid;
+    color: #585a666c;
+}
